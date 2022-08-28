@@ -6,12 +6,13 @@
    
 }
 
+
 .container {
     max-width: 90vw;
-    height: auto;
+    height:auto;
     overflow: hidden;
     margin: 0px auto;
-    border: 1px dashed lightcoral;
+    
 }
 .container .navbar{
     width: 100%;
@@ -20,10 +21,12 @@
     justify-content: space-between;
     align-items: center;
     padding:10px 32px;
+    position: relative;
 }
 .container .navbar .logo{
     font-weight: 500;
     letter-spacing: 2px;
+
    /* margin-left: 32px;*/
 }
 .container .navbar ul li {
@@ -35,3 +38,76 @@
     font-size: small;
     font-weight: 600;
 }
+.container .navbar ::after{
+    content: "";
+    width: 800px;
+    height:800px;
+    background-color: orange;
+    position: absolute;
+    top:0px ;
+    right: 0px;
+    z-index: -1;
+    clip-path: circle(50% at 100% 11%);
+
+}
+/* start  intro section */
+
+.container .introduction {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+.container .introduction .intro-conetent {
+ width: 48%;
+ height: 80%;
+ padding-left: 32px;
+}
+.container .introduction .intro-conetent h3{
+   font-size: 24px;
+   font-weight: 400;
+   margin-top: 72px;
+
+}
+.container .introduction .intro-conetent p {
+    font-size: 14px;
+    color:#333333;
+    letter-spacing: 1px;
+    margin-top: 32px;
+    font-weight:400;
+    line-height: 18px;
+}
+.container .introduction .intro-conetent button{
+    padding: 10px 16px ;
+    background-color: orange;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius:42%;
+    outline: none;
+    margin-top: 32px;
+}
+
+
+
+
+
+.container .introduction .intro-media{
+    width: 48%;
+    height: 80%;
+}
+.container .introduction .intro-media img{
+    margin-top:42px;
+    margin-left: 32px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #333;
+
+}
+
+
+
+
+
+ /* end intro section */
