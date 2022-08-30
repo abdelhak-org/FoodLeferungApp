@@ -205,6 +205,7 @@ html{
 .container .about .about-right{
     width: 50%;
     height: 100%;
+    position: relative;
 
 }
 .container .about .about-left img  {
@@ -242,7 +243,81 @@ html{
     border-radius:50%;
     cursor: pointer;
 }
+.container .about .about-right .img-dev{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius:50%;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.container .about .about-right .img-dev img{
 
+    width:auto;
+    height:100%;
+}
 
 /* end section About us */
+/* start work section*/
+.container .work {
+width:100%;
+height:100vh;
+margin-top: 32px;
+
+}
+
+.container .work .work-intro {
+ width: 80%;
+ min-height: 100px;
+ margin: 0px auto;
+
+}
+.container .work .work-intro h6,h2,p{
+    width: fit-content;
+    margin: 16px auto;
+    text-align: center;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.container .work .work-intro h6{
+    color: orange;
+}
+.container .work .work-intro h2{
+    font-weight: 500;
+    color: #272727;
+}
+.container .work .work-intro p{
+    color: #272727e6;
+    font-size: 14px;
+}
+.container .work .work-content  {
+   width: 80%;
+   height: 100%;
+   margin: 0px auto;
+}
+.container .work .work-content  div {
+    width: 260px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #333333;
+    border: none;
+}
+.container .work .work-content div h4{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.container .work .work-content div p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+/* end work section*/
+
+
 
