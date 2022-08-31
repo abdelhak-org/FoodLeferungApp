@@ -74,24 +74,25 @@ html{
 
 .container .introduction {
     width: 100%;
-    height: 100vh;
+    height:100vh;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
     margin-top: 0.3rem;
 }
-.container .introduction .intro-conetent {
+.container .introduction .intro-content {
  width: 48%;
- height: 80%;
+ height: 100%;
  padding-left: 2rem;
 }
-.container .introduction .intro-conetent h3{
+.container .introduction .intro-content h3{
    font-size: 1.5rem;
    font-weight: 400;
-   margin-top: 4.2rem;
+   width: fit-content;
+   margin-top: 5.2rem;
 
 }
-.container .introduction .intro-conetent p {
+.container .introduction .intro-content p {
     font-size: 14px;
     color:#333333;
     letter-spacing: 0.1rem;
@@ -99,7 +100,7 @@ html{
     font-weight:400;
     line-height: 1.2rem;
 }
-.container .introduction .intro-conetent button{
+.container .introduction .intro-content button{
     padding: 0.8rem 1.2rem ;
     background-color: rgb(233, 154, 6);
     color: #ffffff;
@@ -137,16 +138,16 @@ html{
 /*start contact section*/
  
 .container .contact-section{
-    width: 80%;
-    min-height: 240px;
+    width:80%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px auto;
+    margin:32px auto;
 }
 .container .contact-section div{
   width: 200px;
-  height: 140px;
+  height:auto;
   padding: 18px;
   border-radius: 8px;
   box-shadow: 0px 0px 15px #333;
@@ -178,16 +179,15 @@ html{
     width: 100vw;
     height:100vh;
     position: relative;
-    margin-top: 52px;
+    margin-top:7.2rem;
 
 
 }
 .container .about::before {
  
     content: "";
-    width: 650px;
-    height: 650px;
-
+    width: 600px;
+    height: 600px;
     background-color: orange;
     position: absolute;
     top:50px;
@@ -199,13 +199,14 @@ html{
 .container .about .about-left{
     width: 50%;
     height: 100%;
-    border: 1px solid white;
     position: relative;
 }
-.container .about .about-right{
+.container .about .about-right {
     width: 50%;
     height: 100%;
-    position: relative;
+    padding-left: 2.4rem;
+    
+  
 
 }
 .container .about .about-left img  {
@@ -215,43 +216,54 @@ html{
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left:45%;
     transform: translate(-50%,-50%);
 
 }
+.container .about .about-right h6 {
+   color: orange;
+   font-weight:600;
+   font-size: 14px;
+   width: fit-content;
+   margin-left: -1rem;
+}
 .container .about .about-right h2 {
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom:22px;
-    color:#272727
+    font-size: 2rem;
+    font-weight: 400;
+    color:#272727;
+    margin-left:-1rem;
+    margin-bottom:2rem;
+    line-height: 32px;
 }
 .container .about .about-right p{
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 19px;
+    margin-left: -1rem;
+
     color: rgba(51, 51, 51, 0.909);
 }
 .container .about .about-right button{
 
-    padding: 10px 16px;
+    padding: 0.8rem 1rem;
     background-color: orange;
     border: none;
     color: white;
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 22px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
     border-radius:50%;
     cursor: pointer;
 }
 .container .about .about-right .img-dev{
-    width: 200px;
-    height: 200px;
+    width: 13rem;
+    height: 13rem;
     overflow: hidden;
     border-radius:50%;
     border: none;
     position: absolute;
-    bottom: 10px;
-    right: 20px;
+    bottom: 0.8rem;
+    right: 1.3rem;
 }
 .container .about .about-right .img-dev img{
 
@@ -263,8 +275,9 @@ html{
 /* start work section*/
 .container .work {
 width:100%;
-height:100vh;
-margin-top: 32px;
+height:auto;
+margin-top:3rem;
+margin-bottom: 3rem;
 
 }
 
@@ -276,9 +289,9 @@ margin-top: 32px;
 }
 .container .work .work-intro h6,h2,p{
     width: fit-content;
-    margin: 16px auto;
+    margin: 1rem auto;
     text-align: center;
-    line-height: 22px;
+    line-height: 1.4rem;
     letter-spacing: 1px;
 }
 .container .work .work-intro h6{
@@ -290,26 +303,25 @@ margin-top: 32px;
 }
 .container .work .work-intro p{
     color: #272727e6;
-    font-size: 14px;
+    font-size:0.8rem;
 }
 .container .work .work-content  {
    width: 80%;
-   height: 100%;
    margin: 0px auto;
 }
 .container .work .work-content  div {
-    width: 260px;
-    padding: 16px;
+    width: 15rem;
+    padding:1rem;
     text-align: center;
     border: 1px solid #333333;
     border: none;
 }
 .container .work .work-content div h4{
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     font-weight: 500;
 }
 .container .work .work-content div p{
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 
