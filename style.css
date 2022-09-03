@@ -525,12 +525,40 @@ width: fit-content;
 
 /* end ask Question section */
 /* start Footer section */
- .footer {
+  .container .footer {
     width:100%;
-    min-height: 200px;
-    background-color: yellow;
 }
 
+.container .footer .navbar{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem 1rem;
+}
+.container .footer .navbar .logo{
+    font-weight:600;
+    letter-spacing: 0.1rem;
+
+}
+.container .footer.navbar ul li {
+    margin: 0.8rem 1.2rem;
+    border-radius: 4px;
+    background-color: #ffffff;
+    list-style: none;
+    display: inline-block;
+    font-size: small;
+    font-weight:600;
+    cursor: pointer;
+}
+.container .footer .socialmedia{
+    width: 100%;
+    min-height: 100px;
+    font-display: flex;   
+    text-align: center;
+    justify-content: center;
+}
 
 /* end Footer section */
 
