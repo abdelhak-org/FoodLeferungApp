@@ -19,7 +19,7 @@ html{
 }
 
 .container {
-    max-width: 90vw;
+    max-width: 1320px;
     height:auto;
     overflow: hidden;
     margin: 0px auto;
@@ -166,7 +166,6 @@ html{
  
 .container .contact-section{
     width:80%;
-    min-height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -340,7 +339,6 @@ html{
 /* start work section*/
 .container .work {
 width:100%;
-min-height: 100vh;
 margin-top:3rem;
 margin-bottom: 3rem;
 
