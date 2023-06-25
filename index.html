@@ -10,17 +10,17 @@
     <title>Food Lieferung App</title>
 </head>
 <body>
- <div class="container">
+ <div class="container" id="home">
   <!--  start  navbar -->
     <div class="navbar">
      <span class="logo"> Foodie </span>
      <ul >
-        <li >  Home </i>
-        <li >  Packages</li>
-        <li >  About us</li>
-        <li >  Contact us</li>
-        <li >  buy now </li>
-        <li >   Booking Now </li>
+        <li data-id ="home">  Home </i>
+        <li data-id ="package">  Packages</li>
+        <li data-id ="aboutus">  About us</li>
+        <li data-id ="contactus">  Contact us</li>
+        <li data-id ="buynow">  buy now </li>
+        <li data-id ="bookingnow">   Booking Now </li>
      </ul>
     </div>
 
@@ -49,7 +49,7 @@
       <!-- start contact section -->
 
 
-    <section class="contact-section">
+    <section class="contact-section" id="contactus">
     <div class="opened">
         <i class="fa fa-home fa-2x" style="color:rgb(236, 157, 11)"></i>
         <p>Today 10.00 pm - 22.00 pm</p>
@@ -73,7 +73,7 @@
       <!-- start about section  -->
 
 
-    <section class=" flex about "> 
+    <section class=" flex about " id="aboutus"> 
 
         <div class="about-left">
         <img src="./assets/about-image.jpg" alt="about image">
@@ -96,7 +96,7 @@
           <!-- end about section  -->
 
           <!--  start work section -->
-    <section class="work">
+    <section class="work" id="">
         <div class="work-intro">
             <h6> work</h6>
             <h2> How it Works</h2>
@@ -130,7 +130,7 @@
         <!-- start menu -->
 
 
-    <section class="menu">
+    <section class="menu" id="package">
         <div class="menu-header">
             <h6>Menu</h6>
             <h2>Expolore Our Best Menu</h2>
@@ -248,7 +248,7 @@
     </div>
 
     </section>
-    <section class="askus">
+    <section class="askus" id="bookingnow">
     <div >
       <h6>Ask a Question</h6>
     <h2> Have Quetion in Mind ? <br> let Us help you </h2>
@@ -288,7 +288,7 @@
 
 
 
-
+<script src="./app.js"></script>
 
 </body>
 </html>
