@@ -96,40 +96,46 @@ html{
     width: 100%;
     min-height: 100vh;
     display: flex;
-    justify-content: space-around;
-    align-items:center;
-    margin-top: 0.3rem;
+    justify-content: space-between;
+    align-items:start;
+    margin-top: 3rem;
 }
 .container .introduction .intro-content {
- width: 48%;
+ width: 50%;
  height: 100%;
  padding-left: 2rem;
 }
 .container .introduction .intro-content h3{
    font-size: 1.5rem;
-   font-weight: 400;
+   font-weight: 700;
+   text-align: start;
    width: fit-content;
+   letter-spacing: 2px;
    margin-top: 5.2rem;
+   color: #333;
+ 
 
 }
 .container .introduction .intro-content p {
-    font-size: 14px;
-    color:#333333;
-    letter-spacing: 0.1rem;
-    margin-top: 2rem;
+    font-size: 15px;
+    color:#727272;
+    letter-spacing: 1px;
     font-weight:400;
     line-height: 1.2rem;
+    text-align: start;
+    background-color: #fff;
 }
 .container .introduction .intro-content button{
     padding: 0.8rem 1.2rem ;
-    background-color: rgb(233, 154, 6);
+    background-color: orange;
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     border-radius:42%;
     outline: none;
-    margin-top: 2rem;
+    margin-top:1rem auto;
     cursor: pointer;
+    display: block;
 }
 
 .container .introduction .intro-media{
