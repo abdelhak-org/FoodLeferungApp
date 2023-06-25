@@ -94,11 +94,10 @@ html{
 
 .container .introduction {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
-    align-items:start;
-    margin-top: 3rem;
+    align-items:center;
 }
 .container .introduction .intro-content {
  width: 50%;
